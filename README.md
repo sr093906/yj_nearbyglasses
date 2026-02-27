@@ -12,8 +12,6 @@ The app, called *Nearby Glasses*, has one sole purpose: Look for smart glasses n
 
 <a href="https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses" target="_blank"><img width="239" height="71" alt="Get It On Google Play" src="https://github.com/user-attachments/assets/0feb46d1-969e-4f83-8fc7-c18d1bbed8ad" /></a>
 
-<a href="https://apt.izzysoft.de/packages/ch.pocketpc.nearbyglasses" taget="_blank"><img height="71" src="https://github.com/user-attachments/assets/9a711c51-6bce-43b3-af4f-4f198a94970f" alt="Get it at IzzyOnDroid" /></a>
-
 # Table of contents
  * [Nearby Glasses](#Nearby-Glasses)
   * [Why?](#why)
