@@ -212,6 +212,7 @@ Please Note This app builds upon:
 - [@mewsleah@meow.social](https://meow.social/@mewsleah) for pointing out the idea of a canary mode (yet to be implemented)
 - [@pojntfx](https://github.com/pojntfx) for pointing out my misunderstandings with licensing
 - [Sarah-Jane B.](https://www.linkedin.com/in/sarah-janeb/) for UX design tipps
+- Lena Radau for the translation to Spanish
 - All who already provided feedback to the app!
 
 ## License and Credits
