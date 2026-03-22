@@ -225,4 +225,4 @@ Please Note This app builds upon:
 ## License and Credits
 **App Icon**: The icon is based on [Eyeglass icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/eyeglass)<br/>
 **License**:  This app *Nearby Glasses* is licensed under the [AGPL-3.0 license](LICENSE).<br/>
-**Canary**: The canary drawings are made by me and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). I provided them as raw svg (done in [InkScape](https://inkscape.org/) and converted to xml, obviously, for the app's resources<br/>
+**Canary**: The canary drawings are made by me and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). I provided them as raw svg files (done in [InkScape](https://inkscape.org/)) and converted to xml, obviously, for the app's resources<br/>
