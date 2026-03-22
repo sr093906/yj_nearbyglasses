@@ -126,16 +126,18 @@ class BluetoothScanService : Service() {
                 handleDetection(event)
             }
         )
-        
-       // Removed coroutine launch to ensure isScanning() returns true immediately for UI updates
-       val success = bluetoothScanner?.startScanning() ?: false
-       if (success) {
-           //Log.i(TAG, "Scanning started successfully")
-           Log.i(TAG, getString(R.string.log_scanning_started))
-       } else {
-           //Log.e(TAG, "Failed to start scanning")
-           Log.e(TAG, getString(R.string.log_scanning_failed))
-       }
+
+        // Removed coroutine launch to ensure isScanning() returns true immediately for UI updates
+        //serviceScope.launch {
+            val success = bluetoothScanner?.startScanning() ?: false
+            if (success) {
+                //Log.i(TAG, "Scanning started successfully")
+                Log.i(TAG, getString(R.string.log_scanning_started))
+            } else {
+                //Log.e(TAG, "Failed to start scanning")
+                Log.e(TAG, getString(R.string.log_scanning_failed))
+            }
+        //}
     }
     
     fun stopScanning() {

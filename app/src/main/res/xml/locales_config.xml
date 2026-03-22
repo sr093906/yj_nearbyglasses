@@ -5,5 +5,5 @@
     <locale android:name="de-rCH"/>
     <locale android:name="fr"/>
     <locale android:name="es"/>
-    <locale android:name="zh"/>
+	<locale android:name="zh"/>
 </locale-config>

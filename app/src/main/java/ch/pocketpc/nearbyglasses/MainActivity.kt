@@ -456,8 +456,10 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         
         updateUI()
     }
-
+    
     private fun startInAppScanning() {
+//        val intent = Intent(this, BluetoothScanService::class.java)
+//        bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE)
         if (!serviceBound) {
             val intent = Intent(this, BluetoothScanService::class.java)
             bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE)
