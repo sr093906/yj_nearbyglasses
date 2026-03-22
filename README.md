@@ -16,7 +16,7 @@ attempting to detect smart glasses nearby and warn you.
 # Nearby Glasses 
 The app, called *Nearby Glasses*, has one sole purpose: Look for smart glasses nearby and warn you.
 
-<a href="https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses" target="_blank"><img width="239" height="71" alt="Get It On Google Play" src="https://github.com/user-attachments/assets/0feb46d1-969e-4f83-8fc7-c18d1bbed8ad" /></a> <a href="https://apt.izzysoft.de/packages/ch.pocketpc.nearbyglasses" taget="_blank"><img height="71" src="https://github.com/user-attachments/assets/9a711c51-6bce-43b3-af4f-4f198a94970f" alt="Get it at IzzyOnDroid" /></a>
+<a href="https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses" target="_blank"><img width="239" height="71" alt="Get It On Google Play" src="https://github.com/user-attachments/assets/0feb46d1-969e-4f83-8fc7-c18d1bbed8ad" /></a> <a href="https://apt.izzysoft.de/packages/ch.pocketpc.nearbyglasses" taget="_blank"><img height="71" src="https://github.com/user-attachments/assets/9a711c51-6bce-43b3-af4f-4f198a94970f" alt="Get it at IzzyOnDroid" /></a> <a href="https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/yjeanrenaud/yj_nearbyglasses/"><img height=50 alt="Add Streamyfin to Obtainium" src="./img/Download_with_Obtainium.png"/></a>
 
 # Table of contents
  * [Nearby Glasses](#Nearby-Glasses)
