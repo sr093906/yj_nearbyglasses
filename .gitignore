@@ -85,7 +85,8 @@ lint/tmp/
 secrets.properties
 apikey.properties
 
-# OS generated files
+# OS generated files and folders
+__MACOSX/
 .DS_Store
 .DS_Store?
 ._*
