@@ -4,8 +4,8 @@ attempting to detect smart glasses nearby and warn you.
 *nearby-glasses-alert.pages.dev* is NOT RELATED TO MY PROJECT. They seem to hijack the name and try to make a quick profit from it. I do not endorse this.
 ---
 
-<img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses classic" src="img/old/Screenshot%20Nearby%20Glasses%20(2).png" />
-<img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses canary mode" src="img/Screenshot%20Nearby%20Glasses%20(2).png" />
+<img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses classic" src="../img/old/Screenshot%20Nearby%20Glasses%20(2).png" />
+<img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses canary mode" src="../img/Screenshot%20Nearby%20Glasses%20(2).png" />
 
 # ⚠ WARNING! ⚠ 
 **HARASSING someone because you think they are wearing a covert surveillance device can be a criminal offence. It may even be a more serious offence than using such a device. Please seek legal advise regarding your local laws on this matter.**
@@ -16,7 +16,7 @@ attempting to detect smart glasses nearby and warn you.
 # Nearby Glasses 
 The app, called *Nearby Glasses*, has one sole purpose: Look for smart glasses nearby and warn you.
 
-<a href="https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses" target="_blank"><img width="239" height="71" alt="Get It On Google Play" src="https://github.com/user-attachments/assets/0feb46d1-969e-4f83-8fc7-c18d1bbed8ad" /></a> <a href="https://apt.izzysoft.de/packages/ch.pocketpc.nearbyglasses" taget="_blank"><img height="71" src="https://github.com/user-attachments/assets/9a711c51-6bce-43b3-af4f-4f198a94970f" alt="Get it at IzzyOnDroid" /></a> <a href="https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/yjeanrenaud/yj_nearbyglasses/"><img width="239" height="71" alt="Get it on Obtainium" src="./img/Download_with_Obtainium.png"/></a> <a href="https://apps.apple.com/us/app/nearby-glasses-original/id6761056896"><img width="213" height="71" alt="Download on the App Store" src="https://github.com/user-attachments/assets/c82c0c5b-c775-4754-8946-b76722c9e7cf" /></a>
+<a href="https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses" target="_blank"><img width="239" height="71" alt="Get It On Google Play" src="https://github.com/user-attachments/assets/0feb46d1-969e-4f83-8fc7-c18d1bbed8ad" /></a> <a href="https://apt.izzysoft.de/packages/ch.pocketpc.nearbyglasses" taget="_blank"><img height="71" src="https://github.com/user-attachments/assets/9a711c51-6bce-43b3-af4f-4f198a94970f" alt="Get it at IzzyOnDroid" /></a> <a href="https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/yjeanrenaud/yj_nearbyglasses/"><img width="239" height="71" alt="Get it on Obtainium" src="./../img/Download_with_Obtainium.png"/></a> <a href="https://apps.apple.com/us/app/nearby-glasses-original/id6761056896"><img width="213" height="71" alt="Download on the App Store" src="https://github.com/user-attachments/assets/c82c0c5b-c775-4754-8946-b76722c9e7cf" /></a>
 
 
 # Table of contents
@@ -113,7 +113,7 @@ RSSI drops roughly according to<br/>
 - You may also enter some **company IDs** as string of hex values, e.g. `0x01AB,0x058E,0x0D53`. This overrides the built-in detection, so your notification shows up for the new value(s).
 - For better persistence, it uses Android's *Foreground Service*. You may disable this under *Settings* if you don't need it.
 - The *Notification Cooldown* under *Settings* specifies how much time must pass between two warnings. Default is 10000 ms, which is 10 s. This also applies for the canary, e.g. 10s means, it will stay alert for 10s before it calms itsself again.
-- It is now a bit more localised: <img src="img/canary_hide.svg" align="right" alt="Drawing of a canary that hides underneath a wing" height="100" width="100">
+- It is now a bit more localised: <img src="../img/canary_hide.svg" align="right" alt="Drawing of a canary that hides underneath a wing" height="100" width="100">
    - English
    - German
    - Swiss German
@@ -134,7 +134,7 @@ RSSI drops roughly according to<br/>
 ## Usage
 
 - See [Releases](https://github.com/yjeanrenaud/yj_nearbyglasses/releases) for APK to download or use Google Play Store. F-Droid and/or Accrescent may follow.
-<img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses: Settings" src="img/Screenshot%20Nearby%20Glasses%20(4).png" />
+<img width="135" height="300" align ="right" alt="Screenshot Nearby Glasses: Settings" src="../img/Screenshot%20Nearby%20Glasses%20(4).png" />
 
 <a href="https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses" target="_blank"><img width="239" height="71" alt="Get It On Google Play" src="https://github.com/user-attachments/assets/0feb46d1-969e-4f83-8fc7-c18d1bbed8ad" /></a> <a href="https://apps.apple.com/us/app/nearby-glasses-original/id6761056896"><img width="213" height="71" alt="Download on the App Store" src="https://github.com/user-attachments/assets/c82c0c5b-c775-4754-8946-b76722c9e7cf" /></a>
 1. Install the app (from [Releases](https://github.com/yjeanrenaud/yj_nearbyglasses/releases) or from [Google Play](https://play.google.com/store/apps/details?id=ch.pocketpc.nearbyglasses), for now) or from [Apple App Store](https://apps.apple.com/us/app/nearby-glasses-original/id6761056896), and open it
@@ -146,7 +146,7 @@ RSSI drops roughly according to<br/>
    1. *Enable Foreground Service*: By this, you prevent Android from pausing the app thus preventing it from alerting you. I recommend leaving this enabled
    2. *RSSI threshold*: This negative number specifies how far away a device might be to be a reason for an alert by *Nearby Glasses*. Technically, it referes to how strong the signal is received. Closer to zero means better signal, hence fewer distance between your phone and the smart glasses. See [RSSI above for explanations and guidance](#how). I recommend leaving it on -75
    3. *Enable Notifications*: You would not want to disable that 
-   4. Canary Mode. This is the new default. With this, you will not get system notifications altering you of smart glasses nearby, but instead you will see a canary that indicates no smart glasses around. iOS app only has a canary mode due to technical constrains. <img src="img/canary.svg" alt="Drawing of a canary" width="100" height="100" alignt="left"> 
+   4. Canary Mode. This is the new default. With this, you will not get system notifications altering you of smart glasses nearby, but instead you will see a canary that indicates no smart glasses around. iOS app only has a canary mode due to technical constrains. <img src="../img/canary.svg" alt="Drawing of a canary" width="100" height="100" alignt="left"> 
    5. *Notification/Canary Cooldown*: Here, you specify, how many notifications about found smart glasses nearby you want to get or how long the canary should hide. I chose 10 seconds (10000 ms) as default value. Like this, you won't miss the notification while at the same time won't be bothered by it too much or drain your battery too fast
    6. *Enable Log Display*: Disabling this might spare you some battery. This is disabled in canary mode.
    7. *Debug*: Is needed to see more than just the matching BLE frames in the log display frame. It's useful to see if things are working. This is disabled in canary mode.
