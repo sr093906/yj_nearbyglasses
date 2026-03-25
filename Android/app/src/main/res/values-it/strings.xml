@@ -52,42 +52,42 @@
     <string name="titleMethod">Metodo di rilevamento</string>
     <string name="summaryMethod">Rilevamento basato su ID produttore nei frame BLE di advertising e abbinamento nome dispositivo.</string>
     <string name="titleLiability">Responsabilità e licenza</string>
-    <string name="summaryLiability" formatted="false"><![CDATA[ 
-		 L’app <i>Nearby Glasses</i> ha un solo scopo: cercare occhiali intelligenti nelle vicinanze e avvisarti.<br/> 
-		 L’autore dell’app (<a href="https://yves.app">Yves Jeanrenaud</a>) non si assume alcuna responsabilità per questa app né per il suo funzionamento. Usala a tuo rischio. Per progettazione tecnica, il rilevamento dei dispositivi Bluetooth LE potrebbe talvolta non funzionare come previsto. Non sono uno sviluppatore qualificato. Questo codice è stato scritto nel mio tempo libero e con conoscenze che ho acquisito da autodidatta.<br/> 
+    <string name="summaryLiability" formatted="false"><![CDATA[
+		 L’app <i>Nearby Glasses</i> ha un solo scopo: cercare occhiali intelligenti nelle vicinanze e avvisarti.<br/>
+		 L’autore dell’app (<a href="https://yves.app">Yves Jeanrenaud</a>) non si assume alcuna responsabilità per questa app né per il suo funzionamento. Usala a tuo rischio. Per progettazione tecnica, il rilevamento dei dispositivi Bluetooth LE potrebbe talvolta non funzionare come previsto. Non sono uno sviluppatore qualificato. Questo codice è stato scritto nel mio tempo libero e con conoscenze che ho acquisito da autodidatta.<br/>
 		 <b>Sono probabili falsi positivi.</b> Ciò significa che l’app <i>Nearby Glasses</i> potrebbe notificarti la presenza di occhiali intelligenti nelle vicinanze quando in realtà potrebbe trattarsi di un visore VR dello stesso produttore o di un altro prodotto della stessa azienda. Potrebbe anche non rilevare occhiali intelligenti nelle vicinanze. Per vedere quali marchi sono attualmente rilevati, fai riferimento al <a href="https://github.com/yjeanrenaud/yj_nearbyglasses/">repository del codice su GitHub</a>. Ancora: non sono uno sviluppatore professionista.<br/>
-		 Tuttavia, questa app è e sarà sempre gratuita e open source (foss), puoi esaminare il codice, modificarlo e riutilizzarlo (secondo la licenza): <a href="https://github.com/yjeanrenaud/yj_nearbyglasses">https://github.com/yjeanrenaud/yj_nearbyglasses</a>. 
-		 <br/> 
-		 Realizzata con la speranza che possa essere utile.<br/> 
-		 L’app <i>Nearby Glasses</i> non memorizza alcun dettaglio su di te né raccoglie informazioni su di te o sul tuo telefono. Non c’è telemetria, né pubblicità, né altri elementi fastidiosi. Se installi l’app tramite Play Store, Google potrebbe sapere qualcosa su di te e raccogliere alcune statistiche. Ma l’app stessa no. <br/> 
-		 Se scegli di salvare (esportare) il file di log, è completamente a tua discrezione e responsabilità dove questi dati verranno inviati. I log sono registrati solo localmente e non vengono condivisi automaticamente con nessuno.<br/> 
-		 <br/> 
-		 <b>Usare con estrema cautela!</b> Come già detto: non c’è alcuna garanzia che gli occhiali intelligenti rilevati siano realmente nelle vicinanze. Potrebbe trattarsi di un altro dispositivo tecnicamente (a livello BLE adv) simile agli occhiali intelligenti.<br/> 
-		 Ti preghiamo di non agire impulsivamente. <b>Pensa prima di agire in base a qualsiasi messaggio</b> (non solo da questa app).<br/> 
-		 <br/> 
-		 <b>⚠️ ATTENZIONE! ⚠️</b><br/> 
+		 Tuttavia, questa app è e sarà sempre gratuita e open source (foss), puoi esaminare il codice, modificarlo e riutilizzarlo (secondo la licenza): <a href="https://github.com/yjeanrenaud/yj_nearbyglasses">https://github.com/yjeanrenaud/yj_nearbyglasses</a>.
+		 <br/>
+		 Realizzata con la speranza che possa essere utile.<br/>
+		 L’app <i>Nearby Glasses</i> non memorizza alcun dettaglio su di te né raccoglie informazioni su di te o sul tuo telefono. Non c’è telemetria, né pubblicità, né altri elementi fastidiosi. Se installi l’app tramite Play Store, Google potrebbe sapere qualcosa su di te e raccogliere alcune statistiche. Ma l’app stessa no. <br/>
+		 Se scegli di salvare (esportare) il file di log, è completamente a tua discrezione e responsabilità dove questi dati verranno inviati. I log sono registrati solo localmente e non vengono condivisi automaticamente con nessuno.<br/>
+		 <br/>
+		 <b>Usare con estrema cautela!</b> Come già detto: non c’è alcuna garanzia che gli occhiali intelligenti rilevati siano realmente nelle vicinanze. Potrebbe trattarsi di un altro dispositivo tecnicamente (a livello BLE adv) simile agli occhiali intelligenti.<br/>
+		 Ti preghiamo di non agire impulsivamente. <b>Pensa prima di agire in base a qualsiasi messaggio</b> (non solo da questa app).<br/>
+		 <br/>
+		 <b>⚠️ ATTENZIONE! ⚠️</b><br/>
 		 <b>MOLESTARE</b> qualcuno perché <i>pensi</i> che stia indossando un dispositivo di sorveglianza nascosto può costituire un reato. Potrebbe essere persino un reato più grave rispetto all’utilizzo di tale dispositivo. Consulta un legale riguardo alle leggi locali su questo argomento.<br/>
 		 ⚠️ <b>NON MOLESTARE NESSUNO</b> ⚠️<br/>
-		 <br/> 
+		 <br/>
 		 <b>Icona dell’app</b>: L’icona è basata su <a href="https://www.flaticon.com/free-icons/eyeglass" title="eyeglass icons">icone di occhiali create da Freepik - Flaticon</a>.<br/>
-		 <br/> 
+		 <br/>
 		 <b>Licenze:</b><br/>
-		 Questa app <i>Nearby Glasses</i> è concessa in licenza sotto la GNU Affero General Public License 3.0. Vedi <a href="https://www.gnu.org/licenses/agpl-3.0.html">https://www.gnu.org/licenses/agpl-3.0.html</a>.<br/> 
-		 <br/> 
-		 Questo progetto include librerie di terze parti:<br/> 
-		 <br/> 
-		 1. kotlinx.coroutines<br/> 
-		 Copyright 2016-2024 JetBrains<br/> 
-		 Concesso in licenza sotto Apache License, Versione 2.0<br/> 
-		 <a href="https://github.com/Kotlin/kotlinx.coroutines">https://github.com/Kotlin/kotlinx.coroutines</a><br/> 
-		 <br/> 
-		 2. Librerie AndroidX<br/> 
-		 Copyright The Android Open Source Project<br/> 
-		 Concesse in licenza sotto Apache License, Versione 2.0<br/> 
-		 <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/> 
-		 Contributori oltre GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B.<br/> 
-		 <br/> 
-		 <br/> 
+		 Questa app <i>Nearby Glasses</i> è concessa in licenza sotto la GNU Affero General Public License 3.0. Vedi <a href="https://www.gnu.org/licenses/agpl-3.0.html">https://www.gnu.org/licenses/agpl-3.0.html</a>.<br/>
+		 <br/>
+		 Questo progetto include librerie di terze parti:<br/>
+		 <br/>
+		 1. kotlinx.coroutines<br/>
+		 Copyright 2016-2024 JetBrains<br/>
+		 Concesso in licenza sotto Apache License, Versione 2.0<br/>
+		 <a href="https://github.com/Kotlin/kotlinx.coroutines">https://github.com/Kotlin/kotlinx.coroutines</a><br/>
+		 <br/>
+		 2. Librerie AndroidX<br/>
+		 Copyright The Android Open Source Project<br/>
+		 Concesse in licenza sotto Apache License, Versione 2.0<br/>
+		 <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
+		 Contributori oltre GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
+		 <br/>
+		 <br/>
 		 ✊🏼 Resistenza (Ai)<br/><br/><br/>]]></string>
     <string name="pref_language_title">Lingua</string>
     <string name="pref_language_summary">Scegli la lingua</string>
@@ -100,7 +100,8 @@
         <item>Francese</item>
         <item>Spagnolo</item>
         <item>Cinese</item>
-		<item>Italiano</item>
+        <item>Portoghese (Brasile)</item>
+        <item>Italiano</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -110,7 +111,7 @@
         <item>fr</item>
         <item>es</item>
         <item>zh</item>
-		<item>it</item>
+        <item>it</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Degli smart Glasses potrebbero essere nelle vicinanze</string>
@@ -122,7 +123,7 @@
     <string name="channel_service_description">Indica quando l\'app sta scansionando in background</string>
 
     <!-- Detection notification -->
-    <string name="notification_detected_title">@string/TestoNotifica</string>
+    <string name="notification_detected_title">@string/notifyText</string>
     <string name="notification_detected_text">%1$s rilevato (RSSI: %2$d dBm)</string>
     <string name="notification_bigtext"><![CDATA[
 Dispositivo: %1$s

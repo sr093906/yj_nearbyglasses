@@ -86,20 +86,22 @@
 	Sous licence Apache, version 2.0<br/>
 	<a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
 	<br/>
-	Contributeurs hors de GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B.<br/>
+	Contributeurs hors de GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
 	<br/>
 	✊🏼 résister (iA)<br/><br/><br/>	]]> "</string>
 	<string name="pref_language_title">Langue</string>
 	<string name="pref_language_summary">Choisissez la langue de l\'application</string>
 
 	<string-array name="pref_language_entries">
-	<item>Par défaut du système</item>
-	<item>Anglais</item>
-	<item>Allemand</item>
-	<item>Suisse Allemand</item>
-	<item>Français</item>
-	<item>Espagnol</item>
-	<item>Chinois</item>
+		<item>Par défaut du système</item>
+		<item>Anglais</item>
+		<item>Allemand</item>
+		<item>Suisse Allemand</item>
+		<item>Français</item>
+		<item>Espagnol</item>
+		<item>Chinois</item>
+		<item>Portugais (Brésil)</item>
+		<item>Italien</item>
 	</string-array>
 	<string-array name="pref_language_values">
 		<item></item> <!-- empty string means “follow system” -->
@@ -109,6 +111,8 @@
 		<item>fr</item>
 		<item>es</item>
 		<item>zh</item>
+		<item>pt-BR</item>
+		<item>it</item>
 	</string-array>
 	<!-- for notifications -->
 	<string name="notifyText">⚠️ Des lunettes intelligentes sont peut-être à proximité</string>

@@ -89,11 +89,7 @@
          <br/>
          A copy of the Apache License 2.0 is available under <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a><br/>
          <br/>
-         3. The CLA is licensed under Creative Commons Attribution 3.0 Unported License.<br/>
-            by Harmony Agreements <a href="https://www.harmonyagreements.org/agreements">http://www.apache.org/licenses/LICENSE-2.0</a><br/>
-         <br/>
-         A copy of the Creative Commons Attribution 3.0 Unported License is available under <a href="https://creativecommons.org/licenses/by/3.0/">https://creativecommons.org/licenses/by/3.0/</a><br/>
-         <br/>
+         Contributors beyond GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
          ✊🏼 抵制 (Ai)<br/><br/><br/>]]>     "</string>
     <string name="pref_language_title">语言</string>
     <string name="pref_language_summary">选择应用语言</string>
@@ -104,8 +100,10 @@
         <item>德语</item>
         <item>瑞士德语</item>
         <item>法语</item>
-        <item>Spnish</item>
+        <item>西班牙</item>
         <item>中文</item>
+        <item>葡萄牙语（巴西）</item>
+        <item>意大利语</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -115,6 +113,8 @@
         <item>fr</item>
         <item>es</item>
         <item>zh</item>
+        <item>pt-BR</item>
+        <item>it</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ 附近可能有智能眼镜</string>

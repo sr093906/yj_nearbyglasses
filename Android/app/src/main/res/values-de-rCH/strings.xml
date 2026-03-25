@@ -83,7 +83,7 @@
     Lizenziert unter dr Apache-Lizenz, Version 2.0<br/>
     <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
 	<br/>
-	Mitwirkendi absyts vo GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B.<br/>
+	Mitwirkendi absyts vo GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
     <br/>
     ✊🏼 resist (Ai)<br/><br/><br/>]]></string>
     <string name="pref_language_title">Sproch</string>
@@ -96,6 +96,8 @@
         <item>Französisch</item>
         <item>Spanisch</item>
         <item>Chinesisch</item>
+        <item>Portugiesisch (Brasilie)</item>
+        <item>Italienisch</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -105,6 +107,8 @@
         <item>fr</item>
         <item>es</item>
         <item>zh</item>
+        <item>pt-BR</item>
+        <item>it</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Smart Glasses sind villicht in dr Neechi</string>

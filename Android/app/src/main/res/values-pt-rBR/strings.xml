@@ -84,7 +84,7 @@
             Copyright The Android Open Source Project<br/>
             Licenciado sob a Licença Apache, Versão 2.0<br/>
          <a href="https://github.com/androidx/androidx">https://github.com/androidx/androidx</a><br/>
-		 Contribuidores além do GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B.<br/>
+		 Contribuidores além do GitHub: Lena Radau, @pojntfx@mastodon.social, @vfrmedia@social.tchncs.de, @mewsleah@meow.social, Sarah-Jane B., Lena Hansen, Marcel L.<br/>
 		 <br/>
          <br/>
          ✊🏼 resist (Ai)<br/><br/><br/>]]></string>
@@ -100,6 +100,7 @@
         <item>Espanhol</item>
         <item>Chinês</item>
         <item>Português (Brasil)</item>
+        <item>Italiano</item>
     </string-array>
     <string-array name="pref_language_values">
         <item></item> <!-- empty string means “follow system” -->
@@ -110,6 +111,7 @@
         <item>es</item>
         <item>zh</item>
         <item>pt-BR</item>
+        <item>it</item>
     </string-array>
     <!-- for notifications -->
     <string name="notifyText">⚠️ Óculos inteligentes podem estar por perto</string>
@@ -204,5 +206,4 @@ NÃO ASSEDIAR NINGUÉM, DE FORMA ALGUMA.]]></string>
     <string name="titleCategoryMode">Modo</string>
     <string name="summaryCanaryMode">No Modo Canário, você não receberá notificações do sistema, mas verá um pássaro que significa que nenhum óculos inteligente foi detectado por perto até agora. Caso óculos inteligentes sejam detectados, o pássaro mudará visivelmente.</string>
     <string name="titleCanaryMode">Modo Canário</string>
-
 </resources>
