@@ -225,7 +225,9 @@ Please Note This app builds upon:
 - [@pojntfx](https://github.com/pojntfx) for pointing out my misunderstandings with licensing
 - [Sarah-Jane B.](https://www.linkedin.com/in/sarah-janeb/) for UX design tipps
 - Lena Radau for the translation to Spanish
-- All who already provided feedback to the app!
+- Marcel L. for feedback and testing the iOS app
+- Lena Hansen for field tests
+- Everyone else who already provided feedback to the app!
 
 ## License and Credits
 **App Icon**: The icon is based on [Eyeglass icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/eyeglass)<br/>
